@@ -6,15 +6,22 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
     margin: 0;
+    
+    min-height: 100vh;
   
 }
 
 .SmallerBody {  
 
-    background-color: blue;
     width: 1000px;
-    min-width: 0;
+   
+    background-color: white;
+   flex: auto;
+   
+ 
+
 }
 
 
@@ -112,7 +119,9 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 20px;
+   
+
+    background-color: blue;
     
 
 }
@@ -195,29 +204,27 @@ img.MainImage {
     background-color: white;
     align-items: center;
     justify-content: center;
+    margin: 5em 13em;
  
-  
 
 
 }
 
+
+
 .MainBottomContainer {
 
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;   
     background-color: #3882F6;
     border-radius: 10px;
-    
-    padding-left: 60px;
-    padding-right: 60px;
-    padding-top: 10px;
-    padding-bottom: 10px;
 
-    margin-left: 150px;
-    margin-right: 150px;
-    margin-top: 100px;
-    margin-bottom: 100px;
+     
+    padding: 2em;
+
+   width: 100%;
+   
 
    
     gap: 100px;
@@ -229,10 +236,6 @@ img.MainImage {
 
     display: flex;
     flex-direction: column;
-    align-items:flex-start;
-    justify-content: center;
-    margin-top: 24px;
-    margin-bottom: 24px;
   
   
 
@@ -266,10 +269,7 @@ button.ButtonSignUpWithBorder {
     color: white;
     border-radius: 5px;
     border: 1px solid white;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 4px;
-    padding-bottom: 4px;
+  padding: 4px 20px;
   
     
 
@@ -288,6 +288,25 @@ button.ButtonSignUp {
     padding-right: 20px;
     padding-top: 4px;
     padding-bottom: 4px;
+   
+}
+
+.Footer {
+
+   display: flex;
+   justify-content: center; 
+   align-items: center;
+   background-color: #1F2937;
+   margin-top: auto;
+
+ 
+}
+
+.FooterText {
+
+    margin: 30px;
+    color: #E5E7EB;
+    font-size: 18px;
    
 }
 
