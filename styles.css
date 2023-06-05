@@ -133,6 +133,89 @@ body {
 }
 
 
+.MainTitle {
+
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    text-align: center;
+    margin-bottom: 20x;
+}
+
+.MainImages {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+
+p {
+
+    margin-top: 8px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: lighter;
+}
+
+img.MainImage {
+
+    width: 200px;
+    height: auto;
+    max-height: 200px;
+    border-radius: 8%;
+    border: 3px solid red;
+}
+
+
+.MainMiddle {
+
+    background-color: #9e9ea0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px;
+   
+   
+}
+
+.MainQuote {
+
+   font-size: 36px;
+   color: #1F2937;
+   font-weight: 200;
+   width: 600px;
+
+   font-style: italic;
+   margin-bottom: 10px;
+   
+
+}
+
+.MainQuoteAuthor {
+
+    text-align: right;
+    width: 550px;
+    font-weight: 600;
+    font-size: 20px;
+    
+
+}
+
+
+
+button.ButtonSignUp {
+
+    background-color: #3882F6;
+    font-weight: 700;
+    color: white;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+   
+}
+
 
 
 
