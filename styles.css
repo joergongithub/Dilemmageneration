@@ -1,0 +1,147 @@
+
+body {
+
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+  
+}
+
+.SmallerBody {  
+
+    background-color: blue;
+    width: 1000px;
+    min-width: 0;
+}
+
+
+
+.HEADER {
+
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    background-color: #1F2937;
+    padding-left: 100px;
+    padding-right: 100px;
+    justify-content: space-between;
+   
+}
+
+
+
+.LogoHeaderLeft {
+
+    font-size: 36px;
+    color: #F9FAF8;
+    font-weight: 900;
+  
+
+}
+
+.HeaderRight {
+
+    display: flex;
+    color: #E5E7EB;
+    font-size: 18px;
+    gap: 16px;
+
+}
+
+
+
+
+
+
+.HEROSECTION {
+
+    display: flex;
+    align-items: center;
+    background-color: #1F2937;
+   padding: 100px;
+    justify-content: space-between;
+    gap: 80px;
+    
+
+  
+    
+  
+  
+   
+
+}
+
+.HeroLeft {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+
+
+    max-width: 400px;
+ 
+    
+   
+   
+ 
+    
+}
+
+
+
+.HeroTitle {
+
+    color: #F9FAF8;
+    font-weight: 900;
+    font-size: 48px;
+    margin-bottom: 0;
+  
+}
+
+.HeroDescription {
+
+    color: #E5E7EB;
+    flex: 1 1 auto;
+    flex-basis: 300px;
+    margin-bottom: 20px;
+    
+   
+}
+
+.HeroImage {
+
+    height: 300px;
+   width: auto;
+     
+
+}
+
+
+
+.MainTop {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    
+
+}
+
+
+
+
+
+
+ul {
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
